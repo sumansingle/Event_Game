@@ -1,0 +1,223 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+#main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+#all-users {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#all-users th,
+#all-users td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+#all-users th {
+  background-color: #f2f2f2;
+}
+
+.signup-form,
+.login-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.signup-form label,
+.login-form label {
+  margin-bottom: 8px;
+}
+
+.signup-form input,
+.login-form input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  margin-bottom: 16px;
+}
+
+#signup-button,
+#login-button,
+#logout-button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+#signup-button:hover,
+#login-button:hover,
+#logout-button:hover {
+  background-color: #0062cc;
+}
+
+#username,
+#email {
+  margin-bottom: 16px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="datetime-local"],
+select {
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: rgba(227, 134, 27, 0.677);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0062cc;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+span {
+  font-weight: bold;
+}
+/* Set styles for the game list container */
+.game-list {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Set styles for the game list title */
+.game-list h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Set styles for the game list items */
+.game-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Set styles for the game list item */
+.game-list li {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+/* Set styles for the game name and price */
+.game-list li span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Set styles for the add to cart button */
+.game-list li button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+/* Set styles for the cart page container */
+.cart-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Set styles for the cart title */
+.cart-page h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Set styles for the cart items */
+.cart-page ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Set styles for the cart item */
+.cart-page li {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+/* Set styles for the cart item name and price */
+.cart-page li span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Set styles for the remove item button */
+.cart-page li button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
